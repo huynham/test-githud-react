@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/huynham/test-githud-react.git/static/css/main.3b0c9310.chunk.css",
+    "main.js": "/huynham/test-githud-react.git/static/js/main.c77f4a34.chunk.js",
+    "main.js.map": "/huynham/test-githud-react.git/static/js/main.c77f4a34.chunk.js.map",
+    "runtime-main.js": "/huynham/test-githud-react.git/static/js/runtime-main.c2d44ee5.js",
+    "runtime-main.js.map": "/huynham/test-githud-react.git/static/js/runtime-main.c2d44ee5.js.map",
+    "static/js/2.388a9601.chunk.js": "/huynham/test-githud-react.git/static/js/2.388a9601.chunk.js",
+    "static/js/2.388a9601.chunk.js.map": "/huynham/test-githud-react.git/static/js/2.388a9601.chunk.js.map",
+    "static/js/3.5f5aa290.chunk.js": "/huynham/test-githud-react.git/static/js/3.5f5aa290.chunk.js",
+    "static/js/3.5f5aa290.chunk.js.map": "/huynham/test-githud-react.git/static/js/3.5f5aa290.chunk.js.map",
+    "index.html": "/huynham/test-githud-react.git/index.html",
+    "static/css/main.3b0c9310.chunk.css.map": "/huynham/test-githud-react.git/static/css/main.3b0c9310.chunk.css.map",
+    "static/js/2.388a9601.chunk.js.LICENSE.txt": "/huynham/test-githud-react.git/static/js/2.388a9601.chunk.js.LICENSE.txt",
+    "static/media/App1.css": "/huynham/test-githud-react.git/static/media/img-2 (1).03c94a50.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2d44ee5.js",
+    "static/js/2.388a9601.chunk.js",
+    "static/css/main.3b0c9310.chunk.css",
+    "static/js/main.c77f4a34.chunk.js"
+  ]
+}
