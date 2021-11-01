@@ -1,0 +1,1705 @@
+* {
+    margin: 0 ;padding:0; box-sizing: border-box;
+ width:100%;
+
+}
+i {
+    color:red !important;
+}
+button {color:white !important;}
+
+.menu {
+    position: fixed; top:0;left:0;
+    z-index: 11;height:50px;
+background-color: black;
+ width:100%;
+ }
+ .menucon {width:60%; height:50px;  margin: 0 auto;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    
+ }
+ .mncdiv1 {
+     width:10%;color:white;
+     
+ }
+ .mncdiv1 h3 {margin:0 0 0 20px; font-weight: 700; letter-spacing: 3px;
+font-size: 20px;}
+ .mncdiv2 {width:60%;}
+ .mncdiv2 li {display: inline;  padding:20px 20px 20px 0;color:white;}
+ .mncdiv2 a {text-decoration: none;color:white;}
+ 
+ .mncdiv3 {width:20%;height:70px; position: relative;}
+ .btn { background-color: red; border-radius:30px; color:white;
+ transition: all 0.5s; position: relative; top:0; width:60%; height:50px;
+ border:none; margin-top:5px;
+ }
+ .mncbagach {
+     display:none; width:50%;height:50px;
+     position:absolute; top:20px; right:40px;
+ }
+ .mncbagach i {font-size: 30px; color: white !important;}
+ .btn:hover {
+     top:-5px;
+     }
+     
+
+#phandau1 {
+
+position:relative;
+top:0px;
+width:100%; height:672px;
+background: url("/src/tubaitap/bg-home.jpg");
+background-repeat: no-repeat;
+background-position: center;
+
+}
+.phandau11 {
+    background: linear-gradient(to right, #512da8, #711e72);
+    opacity: 0.9;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+   
+}
+
+.phandau11div1 {
+ 
+   text-align: center;
+   width: 100%; height:650px;
+
+position: relative; z-index: 12;
+}
+
+.phandau11div1 h1 {
+    color:white;
+    margin-top: 10%;;
+    font-size: 46px;
+    
+}
+.phandau11div1 .p1 {
+    color:white; margin:20px 0;
+}
+.play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.play .play1 {
+    width:80px; height:80px; border-radius: 50%; border:3px solid red;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play i {font-size: 30px;}
+.phandau11div2 {position: absolute; bottom:-5px;}
+.phandau11div3 {
+    position: fixed; top:100px;left:0;z-index: 10;
+    }
+    .phandau11div3 p {
+        position: relative;
+        width:50px;height:50px; color:white;background-color: black;
+   
+       
+    }
+    .phandau11div3 i {
+        color:white !important;
+        position: absolute;text-align: center; font-size: 30px;
+        margin-top:10px;
+        animation: quaya 2s infinite linear;
+    }
+    @keyframes quaya {
+        from {transform: rotate(0deg);}
+        to {transform:rotate(360deg);}
+    }
+    #phan2{
+         
+        margin:50px 0 0 0;
+width:100%;
+    }
+    .phan2div1 {
+        width:60%;margin:0 auto; 
+        display: flex;
+       
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        text-align: center;
+       
+    }
+    .phan2div1 hr {border-top: 2px solid red; width:6%; height:2px; margin:30px 0 30px 0;}
+    .phan2div1p2 {padding-bottom:20px;}
+    
+    .phan21 {
+        width:60%; margin:0 auto;
+         
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+}
+
+.phan21div2 {
+    width:33%; height:262px;  
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:3;
+        transition:all 0.5s;
+}
+.phan21div2:hover {
+    top:-20px;
+}
+
+.phan21div2h3 {margin:0 0 15px 0;}
+.phan21div2p1{
+    padding:10px;   width:60px; height:60px;
+    border-radius:50%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.phan21div2p1 i {
+    font-size:30px; 
+}
+.phan21div2:hover .phan21div2p1{
+ background-color: red;   
+}
+.phan21div2:hover i {color:white !important;}
+
+.phan21div3 {
+    width:33%; height:262px;  
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:4;
+        transition:all 0.5s;
+}
+.phan21div3h3 {margin:0 0 15px 0;}
+.phan21div3p1{
+    padding:10px;   width:60px; height:60px;
+    border-radius:50%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.phan21div3p1 i {
+    font-size:30px;
+}
+.phan21div3:hover .phan21div3p1{
+    background-color: red;   
+   }
+   .phan21div3:hover i {color:white !important;}
+.phan21div3:hover {
+    top:-20px;
+}
+
+
+.phan21div4 {
+    width:33%; height:262px;  
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:3;
+        transition:all 0.5s;
+}
+
+.phan21div4h3 {margin:0 0 15px 0;}
+.phan21div4p1{
+    padding:10px;   width:60px; height:60px;
+    border-radius:50%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.phan21div4p1 i {
+    font-size:30px;
+}
+.phan21div4:hover .phan21div4p1{
+    background-color: red;   
+   }
+   .phan21div4:hover i {color:white !important;}
+.phan21div4:hover {
+    top:-20px;
+}
+
+
+.phan3{
+     
+    margin:20px 0 0 0;
+width:100%;
+}
+.phan31 {
+    width:60%; margin:0 auto;
+     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.phan31div1 {
+    width:33%; height:262px;  
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:4;
+        transition:all 0.5s;
+}
+.phan31div1h3 {margin:0 0 15px 0;}
+.phan31div1p1{
+    padding:10px;   width:60px; height:60px;
+    border-radius:50%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.phan31div1p1 i {
+    font-size:30px;
+}
+.phan31div1:hover .phan31div1p1{
+    background-color: red;   
+   }
+   .phan31div1:hover i {color:white !important;}
+.phan31div1:hover {
+    top:-20px;
+}
+
+.phan31div2 {
+    width:33%; height:262px;  
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:4;
+        transition:all 0.5s;
+}
+.phan31div2h3 {margin:0 0 15px 0;}
+.phan31div2p1{
+    padding:10px;   width:60px; height:60px;
+    border-radius:50%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.phan31div2p1 i {
+    font-size:30px;
+}
+.phan31div2:hover .phan31div2p1{
+    background-color: red;   
+   }
+   .phan31div2:hover i {color:white !important;}
+.phan31div2:hover {
+    top:-20px;
+}
+
+.phan31div3 {
+    width:33%; height:262px;  
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:4;
+        transition:all 0.5s;
+}
+.phan31div3h3 {margin:0 0 15px 0;}
+.phan31div3p1{
+    padding:10px;   width:60px; height:60px;
+    border-radius:50%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.phan31div3p1 i {
+    font-size:30px;
+}
+.phan31div3:hover .phan31div3p1{
+    background-color: red;   
+   }
+   .phan31div3:hover i {color:white !important;}
+.phan31div3:hover {
+    top:-20px;
+}
+
+#phan4{
+margin:20px 0 0 0;
+width:100%; background-color: #f8f9fa;
+}
+.phan41 {
+    width:60%; margin:0 auto;
+     padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.phan41div1 {
+    width:40%;height:465px;  
+}
+.phan41div1 h3 {font-size: 24px;
+    margin-bottom: 25px;
+    font-family: "Poppins", sans-serif;
+}
+.phan41div1 p {
+    color: #95a0ab ; margin-bottom:15px;
+}
+
+.phan41div1 li {
+    display:block;color: #95a0ab ;padding:15px 0;
+}
+
+.phan41div1 button {
+    width:30%;padding:10px ; border-radius:5px; background-color: red; border: none;
+    transition: all 0.5s;
+    margin-top:20px;
+    position:relative; top:0;
+}
+.phan41div1 button:hover {
+top:-10px;
+}
+
+.phan41div2 {
+    width:60%;height:465px;  
+    position: relative;
+}
+.phan41div2 img {
+   width:80%;height:460px; margin-left:15%;
+}
+
+.phan5 {
+    width:100%;height:423px; position: relative;  
+    background: url("/src/tubaitap/img-1.jpg"); background-position: center;
+    
+}
+.phan51 {
+    background: linear-gradient(to right, #512da8, #711e72);
+    opacity: 0.9;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+}
+.phan5 img {
+    position: absolute; bottom:0;left:0;
+}
+
+.phan512 {
+    width:60%;height:423px; margin:0 auto;  
+    text-align: center; position:relative;
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+}
+.phan512 h2 {
+    color:white; font-size: 30px; 
+}
+.phan512 p {color:white;margin:20px 0;}
+.phan512 button {
+    width:20%;padding:15px; background-color: white; position: relative; top:0;
+    border-radius:5px; transition: all 0.5s; color:black !important;
+}
+.phan512 button:hover {
+    top: -10px;
+}
+
+#phan6{
+     
+    margin:50px 0 0 0;
+width:100%;
+}
+.phan6div1 {
+    width:60%;margin:0 auto; 
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+   
+}
+.phan6div1 hr {border-top: 2px solid red; width:6%; height:2px; margin:30px 0 30px 0;}
+.phan6div1 p {padding-bottom:20px; color: #95a0ab ;}
+
+.phan61 {
+    width:60%; margin:0 auto;
+     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.phan6div1 p {
+    padding:0 0 30px 0;
+}
+
+.phan61div1 {
+width:30%; height:550px;  
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative; top:0px; z-index:6;
+    box-shadow:1px 1px 3px #403952;
+    border-radius:5px;
+    transition:all 0.5s;
+}
+.phan61div1 h4 {
+    font-size: 15px;
+}
+.phan61div1 h1 {
+    padding:5px;
+}
+.phan61div1 h6 {color: #95a0ab ;}
+.phan61div1 hr {width:70%; margin:30px 0;}
+.phan61div1 p {padding:8px;}
+.phan61div1 b {color:red;}
+.phan61div1 button {width:30%;background-color: red; border:none;padding:15px;
+margin-top:30px; position: relative; top:0; transition: all 0.5s;
+border-radius:5px;
+}
+.phan61div1 button:hover {
+    top:-10px;
+}
+
+.phan61div1:hover {
+    top: -10px;
+}
+
+.phan61div2 {
+    width:30%; height:550px;  
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative; top:0px; z-index:6;
+    box-shadow:1px 1px 3px #403952;
+    border-radius:5px;
+    transition:all 0.5s;
+
+}
+
+.phan61div2 h4 {
+    font-size: 15px;
+}
+.phan61div2 h1 {
+    padding:5px;
+}
+.phan61div2 h6 {color: #95a0ab ;}
+.phan61div2 hr {width:70%; margin:30px 0;}
+.phan61div2 p {padding:8px;}
+.phan61div2 b {color:red;}
+.phan61div2 button {width:30%;background-color: red; border:none;padding:15px;
+margin-top:30px; position: relative; top:0; transition: all 0.5s;
+border-radius:5px;
+}
+.phan61div2 button:hover {
+    top:-10px;
+}
+
+.phan61div2:hover {
+    top: -10px;
+}
+
+.phan61div3 {
+    width:30%; height:550px;  
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative; top:0px; z-index:6;
+    box-shadow:1px 1px 3px #403952;
+    border-radius:5px;
+    transition:all 0.5s;
+
+}
+
+.phan61div3 h4 {
+    font-size: 15px;
+}
+.phan61div3 h1 {
+    padding:5px;
+}
+.phan61div3 h6 {color: #95a0ab ;}
+.phan61div3 hr {width:70%; margin:30px 0;}
+.phan61div3 p {padding:8px;}
+.phan61div3 b {color:red;}
+.phan61div3 button {width:30%;background-color: red; border:none;padding:15px;
+margin-top:30px; position: relative; top:0; transition: all 0.5s;
+border-radius:5px;
+}
+.phan61div3 button:hover {
+    top:-10px;
+}
+
+.phan61div3:hover {
+    top: -10px;
+}
+
+/* end phan 6 */
+
+#phan7{
+     margin:50px 0 0 0;
+width:100%;
+}
+.phan7div1 {
+    width:60%;margin:0 auto; 
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+   
+}
+.phan7div1 hr {border-top: 2px solid red; width:6%; height:2px; margin:30px 0 30px 0;}
+.phan7div1 p {padding-bottom:20px; color: #95a0ab ;}
+.phan7a {
+    width: 60%;display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center; 
+    text-align: center;
+}
+
+
+.phan71 {
+    width:50%; margin:0 auto;
+     display: flex;
+     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.phan7div1 p {
+    padding:0 0 30px 0;
+}
+
+.phan71div1 {
+width:48%; height:348px;  
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative; top:0px; z-index:6;
+    box-shadow:1px 1px 3px #403952;
+    border-radius:5px;
+    margin-right: 10px;
+    transition:all 0.5s;
+}
+.phan71div1 img {
+    position: absolute;top:0; height:261px;
+}
+.phan71div1 h4 {
+     font-size: 16px; position: absolute; bottom:50px;
+}
+.phan71div1 p {
+    color: #a8aeb4; font-size: 13px; position: absolute; bottom:25px;
+}
+.phan71div1:hover {
+    top: -10px;
+}
+.phan71div2 {
+    width:48%; height:348px;  
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:6;
+        box-shadow:1px 1px 3px #403952;
+        border-radius:5px;
+        
+        transition:all 0.5s;
+}
+.phan71div2 img {
+    position: absolute;top:0; height:261px;
+}
+.phan71div2 h4 {
+     font-size: 16px; position: absolute; bottom:50px;
+}
+.phan71div2 p {
+    color: #a8aeb4; font-size: 13px; position: absolute; bottom:25px;
+}
+.phan71div2:hover {
+    top: -10px;
+}
+
+.phan72 {
+    width:50%; margin:0 auto;
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+.phan72div1 {
+    width:48%; height:348px;  
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:6;
+        box-shadow:1px 1px 3px #403952;
+        border-radius:5px;
+        transition:all 0.5s;
+}
+.phan72div1 img {
+    position: absolute;top:0; height:261px;
+}
+.phan72div1 h4 {
+     font-size: 16px; position: absolute; bottom:50px;
+}
+.phan72div1 p {
+    color: #a8aeb4; font-size: 13px; position: absolute; bottom:25px;
+}
+.phan72div1:hover {
+    top: -10px;
+}
+.phan72div2 {
+    width:48%; height:348px;  
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:6;
+        box-shadow:1px 1px 3px #403952;
+        border-radius:5px;
+        margin-left: 10px;
+        transition:all 0.5s;
+}
+.phan72div2 img {
+    position: absolute;top:0; height:261px;
+}
+.phan72div2 h4 {
+     font-size: 16px; position: absolute; bottom:50px;
+}
+.phan72div2 p {
+    color: #a8aeb4; font-size: 13px; position: absolute; bottom:25px;
+}
+.phan72div2:hover {
+    top: -10px;
+}
+
+/* het phan 7 */
+
+.phan8{
+     
+    margin:50px 0 0 0;
+width:100%; position: relative;
+}
+.phan8div1 {
+    width:60%;margin:0 auto; 
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+   
+}
+.phan8div1 hr {border-top: 2px solid red; width:6%; height:2px; margin:30px 0 30px 0;}
+.phan8div1 p {padding-bottom:20px; color: #95a0ab ;}
+
+.phan81 {
+    width:60%; margin:0 auto;
+     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.phan81div1 p {
+    padding:0 0 30px 0;
+}
+
+.phan81div1 {
+width:30%; height:249px;  
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative; top:0px; z-index:6;
+  
+}
+.phan81div1 i {
+    font-size: 48px; color:red;
+}
+.phan81div1 h4 {font-size: 18px;}
+.phan81div1 p {color: #95a0ab ;}
+.phan81phu1 {width:5%;height:249px;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+}
+.phan81phu1 i {
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    width:40px;height:40px; border:1px solid red;
+    background-color: red; z-index: 11;
+    font-size: 30px;color:white !important;   border-radius: 50%;
+    
+}
+.phan81phu2 {width:5%;height:249px;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+}
+.phan81phu2 i {
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    width:40px;height:40px; border:1px solid red;
+    background-color: red; z-index: 11;
+    font-size: 30px;color:white !important;   border-radius: 50%;
+    
+}
+.phan81div2 {
+    width:30%; height:249px;  
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:6;
+      
+}
+.phan81div2 i {
+    font-size: 48px; color:red;
+}
+.phan81div2 h4 {font-size: 18px;}
+.phan81div2 p {color: #95a0ab ;}
+.phan81div2 button {
+    position: absolute;bottom:8%;width:30%;padding:10px;
+    background-color: red;border-radius: 5px; border: none;
+    transition: all 0.5s;
+}
+.phan81div2 button:hover {
+    bottom:10%;
+}
+.phan81div3 {
+    width:30%; height:249px;  
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:6;
+      
+}
+.phan81div3 i {
+    font-size: 48px; color:red;
+}
+.phan81div3 h4 {font-size: 18px;}
+.phan81div3 p {color: #95a0ab ;}
+
+
+.phan81div1:before {
+    content: "";
+    border: 1px dashed #e0e0e0;
+    position: absolute;
+    width: 67%;
+    left: 65%;
+    top: 50px;
+    position: absolute; z-index: 10; top:50%; left:80%;
+}
+
+.phan81div2:before {
+    content: "";
+    border: 1px dashed #e0e0e0;
+    position: absolute;
+    width: 67%;
+    left: 65%;
+    top: 50px;
+    position: absolute; z-index: 10; top:50%; left:80%;
+}
+
+/* het phan 8 */
+
+.phan9{
+     
+    margin:50px 0 20px 0;
+width:100%; position: relative;
+}
+.phan9div1 {
+    width:60%;margin:0 auto; 
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+   
+}
+.phan9div1 hr {border-top: 2px solid red; width:6%; height:2px; margin:30px 0 30px 0;}
+.phan9div1 p {padding-bottom:20px; color: #95a0ab ;}
+
+.phan91 {
+    width:60%; margin:0 auto;
+     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.phan91div1 p {
+    padding:0 0 30px 0;
+}
+
+.phan91div1 {
+width:30%; height:240px;  
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative; top:0;
+  transition: all 0.5s;
+}
+.phan91div1 img {
+    width:68px;height:68px;border-radius:50%;
+    position: absolute; top:3%;left:40%;
+    padding:5px; border:1px solid rgb(100, 82, 82);
+}
+.phan91div1 p {
+    width:80%;height:162px; 
+    padding-top:15%; border-radius: 5px;box-shadow: 1px 1px 3px black;
+}
+.phan91div1 h5 {
+    position:absolute; bottom:10px;
+}
+.phan91div1 span {
+    color: #95a0ab ;
+}
+.phan91div1:hover {
+top:-10px;
+}
+.phan91div2 {
+    width:30%; height:240px;  
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:6;
+        transition: all 0.5s;
+}
+.phan91div2 img {
+    width:68px;height:68px;border-radius:50%;
+    position: absolute; z-index:11; top:3%;left:40%;
+    padding:5px; border:1px solid rgb(100, 82, 82);
+}
+.phan91div2 p {
+    width:80%;height:162px; 
+    padding-top:15%; border-radius: 5px;box-shadow: 1px 1px 3px black;
+}
+.phan91div2 h5 {
+    position:absolute; bottom:10px;
+}
+.phan91div2 span {
+    color: #95a0ab ;
+}
+.phan91div2:hover {
+    top:-10px;
+    }
+.phan91div3 {
+    width:30%; height:240px;  
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:6;
+        transition: all 0.5s;
+}
+
+.phan91div3 img {
+    width:68px;height:68px;border-radius:50%;
+    position: absolute; z-index:11; top:3%;left:40%;
+    padding:5px; border:1px solid rgb(100, 82, 82);
+}
+.phan91div3 p {
+    width:80%;height:162px; 
+    padding-top:15%; border-radius: 5px;box-shadow: 1px 1px 3px black;
+}
+.phan91div3 h5 {
+    position:absolute; bottom:10px;
+}
+.phan91div3 span {
+    color: #95a0ab ;
+}
+.phan91div3:hover {
+top:-10px;
+}
+
+/* het phan 9 */
+
+.phan10 {
+    width:100%;height:423px; position: relative;  
+    background: url("/src/tubaitap/img-2\ \(1\).jpg"); background-position: center;
+}
+.phan101 {
+    background: linear-gradient(to right, #512da8, #711e72);
+    opacity: 0.9;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+}
+.phan101 img {
+    position: absolute; bottom:0;left:0;
+}
+
+.phan1012 {
+    width:60%;height:423px; margin:0 auto;  
+    text-align: center; position:relative;
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+}
+.phan1012 h2 {
+    color:white; font-size: 30px;
+}
+.phan1012 hr {width:10%;border-top: 2px solid red;
+    height:2px; margin:20px 0;
+}
+.phan1012 p {color:white; margin-bottom: 20px; }
+.phan1012 button {
+    width:15%;padding:15px; background-color: white; 
+     color:black !important; position: relative; top:0;
+    border-radius:5px; transition: all 0.5s;
+}
+.phan1012 button:hover {
+   top:-10px; 
+}
+
+/* het phan 10 */
+
+#phan11 {
+margin:50px 0 0 0;
+width:100%; position: relative;
+}
+.phan11div1 {
+    width:60%;margin:0 auto; 
+    text-align: center;  
+}
+
+.phan11div1 hr {border-top: 2px solid red; width:6%; height:2px; margin:30px 0 30px 47%;}
+.phan11div1 p {padding-bottom:20px; color: #95a0ab ;}
+.phan11div1 p {
+padding:0 0 50px 0;
+}
+
+.phan111 {
+    width:60%; margin:0 auto;
+     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.phan111div1 .p2 {
+    padding:0 0 30px 0;
+}
+
+.phan111div1 {
+width:30%; height:435px;  
+display: flex;
+flex-direction: column;
+  
+    position: relative; top:0;
+  transition: all 0.5s;
+}
+.phan111div1 img {
+    width:100%;height:237px; position: absolute; top:0;
+}
+.phan111div1 h5 {color: #95a0ab ;position: absolute;top:60%;}
+.phan111div1 h4 {position: absolute;top:65%;}
+.phan111div1 a {text-decoration: none;}
+.phan111div1 .p2 a {color:red;}
+.phan111div1 .p2 a:hover {color:black;}
+.phan111div1 h4 a:hover {color:red;}
+.phan111div1 p {position: absolute;top:70%; color: #95a0ab ;}
+.phan111div1 .p2 {position: absolute;top:85%;}
+.phan111div1:hover {
+top:-10px;
+}
+.phan111div2 {
+    width:30%; height:435px;  
+    display: flex;
+    flex-direction: column;
+        
+        position: relative; top:0px; z-index:6;
+        transition: all 0.5s;
+}
+.phan111div2 img {
+    width:100%;height:237px; position: absolute; top:0;
+}
+.phan111div2 h5 {color: #95a0ab ;position: absolute;top:60%;}
+.phan111div2 h4 {position: absolute;top:65%;}
+.phan111div2 a {text-decoration: none;}
+.phan111div2 .p2 a {color:red;}
+.phan111div2 .p2 a:hover {color:black;}
+.phan111div2 h4 a:hover {color:red;}
+.phan111div2 p {position: absolute;top:70%; color: #95a0ab ;}
+.phan111div2 .p2 {position: absolute;top:85%;}
+.phan111div2:hover {
+top:-10px;
+}
+
+.phan111div3 {
+    width:30%; height:435px;  
+    display: flex;
+    flex-direction: column;
+       
+        position: relative; top:0px; z-index:6;
+        transition: all 0.5s;
+}
+
+.phan111div3 img {
+    width:100%;height:237px; position: absolute; top:0;
+}
+.phan111div3 h5 {color: #95a0ab ;position: absolute;top:60%;}
+.phan111div3 h4 {position: absolute;top:65%;}
+.phan111div3 a {text-decoration: none;}
+.phan111div3 .p2 a {color:red;}
+.phan111div3 .p2 a:hover {color:black;}
+.phan111div3 h4 a:hover {color:red;}
+.phan111div3 p {position: absolute;top:70%; color: #95a0ab ;}
+.phan111div3 .p2 {position: absolute;top:85%;}
+.phan111div3:hover {
+top:-10px;
+}
+
+/* het phan 11 */
+
+#phan12{
+     
+    margin:50px 0 0 0;
+width:100%; position: relative;
+}
+.phan12div1 {
+    width:60%;margin:0 auto; 
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+   
+}
+.phan12div1 hr {border-top: 2px solid red; width:6%; height:2px; margin:30px 0 30px 0;}
+.phan12div1 p {padding-bottom:20px; color: #95a0ab ;}
+.phan12div1 p {
+    padding:0 0 50px 0;
+}
+.phan121 {
+    width:60%; margin:0 auto;
+     
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+
+
+.phan121div1 {
+width:30%;  
+display: flex;
+flex-direction: column;
+  
+    position: relative; top:0;
+  transition: all 0.5s;
+}
+.phan121div1 p {font-size: 14px;
+font-weight: bold;
+}
+.phan121div1 span {color: #95a0ab; margin:10px 0 30px 0; }
+
+.phan121div2 {
+    width:65%; 
+    display: flex;
+    flex-direction: column;
+      
+        position: relative; top:0;
+      transition: all 0.5s;
+}
+
+.phan121div2 .inp1{
+    margin-bottom: 15px;
+    box-shadow: none !important;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    font-size: 14px;
+    width:45%;
+}
+.phan121div2 .inp2{
+    position: absolute; right:0;
+    margin-bottom: 15px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    font-size: 14px;
+    width:45%;
+}
+.phan121div2 .inp3{
+    position: absolute; left:0; top: 70px;
+    margin-bottom: 15px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    font-size: 14px;
+    width:100%;
+}
+.phan121div2 .text1 {
+    margin-top:80px;
+  
+    height: 80px;
+    padding-left: 20px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    margin-bottom: 80px;
+}
+.phan121div2 button {
+    width:20%; background-color: red; border:none;
+    position: absolute; right:0; bottom:0; padding:15px;
+    border-radius: 5px; transition: all 0.5s;
+}
+.phan121div2 a {text-decoration: none;color:white;}
+.phan121div2 button:hover {
+    bottom:-10px;
+}
+    
+/* het phan 12 */
+
+.phan13{
+     
+    margin:50px 0 0 0;
+width:100%; position: relative;
+}
+.phan131 {
+    width:60%; margin:0 auto;
+     height:150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.phan131div1 {
+    width:33%; height:60px;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+        position: relative; top:0;
+      transition: all 0.5s;
+}
+.phan131div1 ul{
+    position: absolute; left:0;
+}
+.phan131div1 li {display:inline;padding-left:10px;}
+.phan131div1 a {text-decoration: none;}
+.phan131div1 .iconify {
+    text-align: center;
+    font-size: 20px;color:black; border:1px solid rgb(68, 57, 57); 
+    width:10%;height:40px; border-radius: 50%; 
+}
+.phan131div1 .iconify:hover {
+    background-color: red;
+}
+
+.phan131div2 {
+    width:33%; height:20px;
+    position: relative;
+   
+}
+
+.phan131div2 i {
+    position: absolute; right:0px; top:0;
+    font-size: 20px; width:50%; color:black !important;
+}
+.phan131div3 {
+    width:33%;  height:30px;
+   position: relative;
+      transition: all 0.5s;
+}
+
+    .phan131div3 i {
+        position: absolute; right:0px; top:0;
+        font-size: 20px; width:50%; float: left; color:black !important;
+}
+
+/* het phan 13 */
+.phan14{
+   margin:30px 0 0 0;
+width:100%;
+background-color: black;
+}
+.phan141 {
+    width:60%; margin:0 auto; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-top: 50px;
+}
+.phan141div1 {
+    width:25%; height:246px;  
+    display: flex;
+    flex-direction: column;
+      position: relative; top:0;
+      transition: all 0.5s;
+      color:white;
+}
+.phan141div1 h4 {margin-bottom:20px;}
+.phan141div1 li {display:block; list-style-type: none;margin:0;padding:10px 0;}
+.phan141div1 a {text-decoration: none; color:#6c757d;}
+.phan141div2 {
+    width:25%; height:246px;  
+   
+    display: flex;
+    flex-direction: column;
+      position: relative; top:0;
+      transition: all 0.5s;
+      color:white;
+}
+.phan141div2 h4 {margin-bottom:20px;}
+.phan141div2 li {display:block; list-style-type: none;margin:0;padding:10px 0;}
+.phan141div2 a {text-decoration: none; color:#6c757d;}
+.phan141div3 {
+    width:25%; height:246px;  
+    display: flex;
+    flex-direction: column;
+      position: relative; top:0;
+      transition: all 0.5s;
+      color:white;
+}
+.phan141div3 h4 {margin-bottom:20px;}
+.phan141div3 li {display:block; list-style-type: none;margin:0;padding:10px 0;}
+.phan141div3 a {text-decoration: none; color:#6c757d;}
+.phan141div4 {
+    width:25%; height:246px;  
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: all 0.5s;
+    color:white;
+}
+.phan141div4 h4 {margin-bottom:20px; text-transform: uppercase;}
+.phan141div4 li {display:block; list-style-type: none;margin:0;padding:10px 0;color: #6c757d;}
+.phan141div4 input {height:40px; background-color: #2e313a ; border:none;}
+.phan141div4 i {font-size: 20px; position: absolute; top:55%;right:20px; width:5px;}
+
+/* het phan 14 */
+
+.phan15{
+     
+width:100%; height:80px; position: relative;
+display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: black;
+}
+.phan151 {
+    width:60%; margin:0 auto;
+     height:80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: #2e313a;
+    
+}
+.phan151div1 {
+    width:50%; height:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+      position: relative; top:0;
+      transition: all 0.5s;
+      color:white;
+       
+}
+
+.phan151div2 {
+    width:50%; height:40px;
+    display: flex;
+    flex-direction: column;
+      position: relative; top:0;
+      transition: all 0.5s;
+      color:white;
+       
+}
+.phan151div2 img { width:30%; position: absolute;right:0;bottom:0;}
+
+@media screen and (min-width:320px) and (max-width:666px) {
+    * {
+        margin:0;padding:0; width:100%; box-sizing: border-box;
+    }
+    .mncdiv2 {display: none;}
+    .phandau11div3 {display:none;}
+    .btn {display: none;}
+    .menu {width: 100%;}
+    .menucon {width: 100%;}
+    .mncdiv1 {width:40%;}
+    .logo {width: 20%;}
+    .mncdiv2 {display: none;}
+    .mncbagach {display: block;}
+    .phandau11div1 h1 {
+        color:white;
+        margin-top: 40%;;
+        font-size: 26px;
+        
+    }
+    .phan21 {
+        width:100%;display:block; 
+    }
+    .phan21div2 {width:100%;}
+    .phan21div3 {width:100%;}
+    .phan21div4 {width:100%;}
+
+    .phan31 {width: 100%; display: block; }
+    .phan31div1 {width: 100%;}
+    .phan31div2 {width: 100%;}
+    .phan31div3 {width: 100%;}
+
+    .phan41 {width: 100%; display: block; }
+    .phan41div1 {width: 100%;}
+    .phan41div2 {width: 100%; z-index: 10;}
+
+    .phan512 {width: 100%; }
+    .phan512 button {width:50%;}
+
+    .phan6div1 {width: 100%;}
+    .phan61 {width: 100%;display:block; }
+    .phan61div1 {width: 100%;margin:10px 0;}
+    .phan61div2 {width: 100%; margin:10px 0;}
+    .phan61div3 {width: 100%;margin:10px 0;}
+
+    
+    .phan7div1 {width: 100%;}
+    .phan7a {display: block; width: 100%; }
+    .phan71 {display: block; width: 100%;}
+    .phan71div1 {width: 100%; margin:10px 0;}
+    .phan71div2 {width: 100%; margin:10px 0;}
+    .phan72 {display: block; width: 100%;}
+    .phan72div1 {width: 100%; margin:10px 0;}
+    .phan72div2 {width: 100%; margin:10px 0;}
+
+    .phan8div1 {width: 100%;}
+    .phan81 {display: block; width:100%; }
+    .phan81div1 {width:100%;}
+    .phan81div2 {width:100%;}
+    .phan81div3 {width:100%;}
+    .phan81phu1 {display: none;}
+    .phan81phu2 {display: none;}
+    .phan81div1:before {display: none;}
+    .phan81div2:before {display: none;}
+
+    .phan9div1 {width: 100%;}
+    .phan91 {display: block; width: 100%; }
+    .phan91div1 {width:100%;}
+    .phan91div2 {width:100%;}
+    .phan91div3 {width:100%;}
+
+    .phan1012 {width: 100%; }
+    .phan1012 button {width:50%;}
+
+    .phan11div1 {width: 100%;}
+    .phan111 {display: block;width: 100%; }
+    .phan111div1 {width: 100%;}
+    .phan111div2 {width: 100%;}
+    .phan111div3 {width: 100%;}
+
+    .phan12div1 {width: 100%; }
+    .phan121 {display: block; width: 100%;}
+    .phan121div1 {width: 100%;}
+    .phan121div2 {width: 100%;}
+
+    .phan131 {display: block;width: 100%; }
+    .phan131div1 {width: 100%; margin-bottom:10px;}
+    .phan131div2 {width: 100%; margin-bottom:10px;}
+    .phan131div2 i {width: 100%;}
+    .phan131div3 i {width: 100%;}
+    .phan131div3 {width: 100%; }
+    
+    .phan141 {
+        display: flex;
+        flex-direction: column;
+    width:100%;
+     
+    }
+    .phan141div1 {width:100%;}
+    .phan141div2 {width:100%;}
+    .phan141div3 {width:100%;}
+    .phan141div4 {width:100%;}
+
+    .phan151 {display: block; width: 100%;  }
+    .phan151div1 {width: 100%;}
+    .phan151div2 {width: 100%;}
+    .phan151div2 img {width: 50%;}
+    
+}
+
+@media screen and (min-width:667px) and (max-width:1023px) {
+    * {
+        margin:0;padding:0; width:100%; box-sizing: border-box;
+}
+.mncdiv2 {display: none;}
+    .phandau11div3 {display:block;}
+    .btn {display: none;}
+    .menu {width: 100%;}
+    .menucon {width: 100%;}
+    .mncdiv1 {width:40%;}
+    .logo {width: 20%;}
+    .mncdiv2 {display: none;}
+    .mncbagach {display: block;}
+    .phandau11div1 h1 {
+        color:white;
+        margin-top: 40%;;
+        font-size: 26px;
+        
+    }
+    .phan21 {
+        width:100%;display:block;
+       }
+    .phan2div1 {width: 80%;}
+    .phan21div2 {width:80%;}
+    .phan21div3 {width:80%;}
+    .phan21div4 {width:80%;}
+
+    .phan31 {width: 80%; display: block; }
+    .phan31div1 {width: 100%;}
+    .phan31div2 {width: 100%;}
+    .phan31div3 {width: 100%;}
+
+    .phan41 {width: 80%; display: block; }
+    .phan41div1 {width: 100%;}
+    .phan41div2 {width: 100%; z-index: 10;}
+
+    .phan512 {width: 100%; }
+    .phan512 button {width:50%;}
+
+    .phan6div1 {width: 100%;}
+    .phan61 {width: 80%;display:block; }
+    .phan61div1 {width: 100%;margin:10px 0;}
+    .phan61div2 {width: 100%; margin:10px 0;}
+    .phan61div3 {width: 100%;margin:10px 0;}
+
+    
+    .phan7div1 {width: 100%;}
+    .phan7a {display: block; width: 90%; }
+    .phan71 { width: 100%;}
+    .phan71div1 {width: 100%; margin-right:10px;}
+    .phan71div2 {width: 100%; margin:10px 0;}
+    .phan72 { width: 100%;}
+    .phan72div1 {width: 100%; margin-right:10px;}
+    .phan72div2 {width: 100%; margin:10px 0;}
+
+    .phan8div1 {width: 100%;}
+    .phan81 {display: block; width:80%; }
+    .phan81div1 {width:100%;}
+    .phan81div2 {width:100%;}
+    .phan81div3 {width:100%;}
+    .phan81phu1 {display: none;}
+    .phan81phu2 {display: none;}
+    .phan81div1:before {display: none;}
+    .phan81div2:before {display: none;}
+
+    .phan9div1 {width: 100%;}
+    .phan91 {display: block; width: 80%; }
+    .phan91div1 {width:100%;}
+    .phan91div2 {width:100%;}
+    .phan91div3 {width:100%;}
+
+    .phan1012 {width: 80%; }
+    .phan1012 button {width:50%;}
+    .phan11div1 {width: 100%;}
+    .phan111 {display: block;width: 80%; }
+    .phan111div1 {width: 100%;}
+    .phan111div2 {width: 100%;}
+    .phan111div3 {width: 100%;}
+
+    .phan12div1 {width: 100%; }
+    .phan121 {display: block; width: 80%;}
+    .phan121div1 {width: 100%;}
+    .phan121div2 {width: 100%;}
+
+    .phan131 {display: block;width: 80%; }
+    .phan131div1 {width: 100%; margin-bottom:10px;}
+    .phan131div2 {width: 100%; margin-bottom:10px;}
+    .phan131div2 i {width: 100%;}
+    .phan131div3 i {width: 100%;}
+    .phan131div3 {width: 100%; }
+    
+    .phan141 {
+        display: flex;
+        flex-direction: column;
+    width:80%;
+     
+    }
+    .phan141div1 {width:100%;}
+    .phan141div2 {width:100%;}
+    .phan141div3 {width:100%;}
+    .phan141div4 {width:100%;}
+    .phan141div4 i {top:47%;}
+
+    .phan151 {display: block; width: 80%;  }
+    .phan151div1 {width: 100%;}
+    .phan151div2 {width: 100%;}
+    .phan151div2 img {width: 50%;}
+    
+
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1370px) {
+    * {
+        margin:0;padding:0; width:100%; box-sizing: border-box;
+    }
+    
+    .phandau11div3 {display:none;}
+    .btn {display: none;}
+    .menu {width: 100%;}
+    .menucon {width: 90%;}
+    .mncdiv1 {width:20%;}
+    .logo {width: 20%;}
+    .mncdiv2 {display: inline;}
+    .mncbagach {display: block;}
+    .phandau11div1 h1 {
+        color:white;
+        
+        font-size: 26px;
+        
+    }
+    .phan21 {
+        width:90%; 
+    }
+    .phan21div2 {width:100%;}
+    .phan21div3 {width:100%;}
+    .phan21div4 {width:100%;}
+
+    .phan31 {width: 90%; }
+    .phan31div1 {width: 100%;}
+    .phan31div2 {width: 100%;}
+    .phan31div3 {width: 100%;}
+
+    .phan41 {width: 90%;  }
+    .phan41div1 {width: 100%;}
+    .phan41div2 {width: 100%; z-index: 10;}
+
+    .phan512 {width: 90%; }
+    
+
+    .phan6div1 {width: 100%;}
+    .phan61 {width: 90%;}
+    .phan61div1 {width: 100%;margin:10px 0;}
+    .phan61div2 {width: 100%; margin:10px 0;}
+    .phan61div3 {width: 100%;margin:10px 0;}
+
+    .phan7a div {margin: 0 5px;}
+    .phan7div1 {width: 100%;}
+    .phan7a { width: 90%; }
+    .phan71 { width: 100%;}
+    .phan71div1 {width: 100%; margin:10px 0;}
+    .phan71div2 {width: 100%; margin:10px 0;}
+    .phan72 { width: 100%;}
+    .phan72div1 {width: 100%; margin:10px 0;}
+    .phan72div2 {width: 100%; margin:10px 0;}
+
+    .phan8div1 {width: 100%;}
+    .phan81 { width:90%; }
+    .phan81div1 {width:100%;}
+    .phan81div2 {width:100%;}
+    .phan81div3 {width:100%;}
+    
+    .phan81div1:before {display: none;}
+    .phan81div2:before {display: none;}
+
+    .phan9div1 {width: 100%;}
+    .phan91 { width: 90%; }
+    .phan91div1 {width:100%;}
+    .phan91div2 {width:100%;}
+    .phan91div3 {width:100%;}
+
+    .phan1012 {width: 90%; }
+    
+
+    .phan11div1 {width: 100%;}
+    .phan111 {width: 90%; }
+    .phan111div1 {width: 100%;}
+    .phan111div2 {width: 100%;}
+    .phan111div3 {width: 100%;}
+
+    .phan12div1 {width: 100%; }
+    .phan121 { width: 90%;}
+    .phan121div1 {width: 100%;}
+    .phan121div2 {width: 100%;}
+
+    .phan131 {width: 90%; }
+    .phan131div1 {width: 100%; margin-bottom:10px;}
+    .phan131div2 {width: 100%; margin-bottom:10px;}
+    .phan131div2 i {width: 100%;}
+    .phan131div3 i {width: 100%;}
+    .phan131div3 {width: 100%; }
+    
+    .phan141 {
+      
+    width:90%;
+     
+    }
+    .phan141div1 {width:100%;}
+    .phan141div2 {width:100%;}
+    .phan141div3 {width:100%;}
+    .phan141div4 {width:100%;}
+    .phan141div4 i {display: none;}
+
+    .phan151 { width: 90%;  }
+    .phan151div1 {width: 100%;}
+    .phan151div2 {width: 100%;}
+    .phan151div2 img {width: 50%;}
+    
+}

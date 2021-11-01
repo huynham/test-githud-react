@@ -1,0 +1,1292 @@
+* {
+    margin: 0 ;padding:0; box-sizing: border-box;
+ width:100%;
+
+}
+#phandau {
+
+position:relative;
+top:0px;
+width:100%; height:672px;
+background: url("bg-home.jpg");
+
+background-repeat: no-repeat;
+
+background-position: center;
+
+}
+.pdchuh1 {
+    color:white; position: absolute;z-index: 5; top:30%;text-align: center;
+    font-size: 46px;
+    
+}
+.pdchup1 {
+    color:white; position: absolute;z-index: 5;top:50%;text-align: center;
+}
+.play {
+    color:red; width:80px;height:80px; border-radius:50%; position: absolute;z-index:100;
+    top:60%;left:48%; border:2px solid red;
+    display: flex; align-items: center; justify-content: center;
+}
+.hieuung {
+    border:1px solid red;
+position: absolute;
+bottom: -5px;
+left: 0px;
+right: 0px;
+}
+
+.phandau1 {
+    background: linear-gradient(to right, #512da8, #711e72);
+    opacity: 0.9;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+}
+.menu {position: fixed; top:0;left:0;
+ border:1px solid red; z-index: 2;height:80px;
+background-color: black;
+}
+.menucon {width:60%; border:1px solid blue; margin: 10px auto;
+    display: flex;
+   
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width:20%;color:white;
+}
+li {display: inline;  padding:20px;color:white;}
+.btn { background-color: red; border-radius:30px;
+transition: all 0.5s; position: relative; top:0; width:20%; height:50px;
+border:none;
+}
+.btn:hover {
+    top:-5px;
+    }
+    .quay {
+        position: fixed; top:100px;left:0;
+    width:50px;height:50px; color:white;background-color: black;
+    border-radius:50%;
+    text-align: center;
+    animation: quaya 2s infinite linear;
+    }
+    @keyframes quaya {
+        from {transform: rotate(0deg);}
+        to {transform:rotate(360deg);}
+    }
+    .phan2{
+        border:1px solid red;
+        margin:50px 0 0 0;
+width:100%;
+    }
+    .phan2div1 {
+        width:60%;margin:0 auto;border:1px solid green;
+        display: flex;
+       
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        text-align: center;
+       
+    }
+    .phan2div1 hr {border-top: 2px solid red; width:6%; height:2px; margin:30px 0 30px 0;}
+    .phan2div1p2 {padding-bottom:20px;}
+    
+    .phan21 {
+        width:60%; margin:0 auto;
+        border:1px solid blue;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+}
+
+.phan21div2 {
+    width:33%; height:262px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:3;
+        transition:all 0.5s;
+}
+.phan21div2:hover {
+    top:-20px;
+}
+
+.phan21div2h3 {margin:0 0 15px 0;}
+.phan21div2p1{
+    padding:10px; border:1px solid red; width:60px; height:60px;
+    border-radius:50%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.phan21div2p1 i {
+    font-size:30px;
+}
+.phan21div2:hover .phan21div2p1{
+ background-color: red;   
+}
+
+
+.phan21div3 {
+    width:33%; height:262px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:4;
+        transition:all 0.5s;
+}
+.phan21div3h3 {margin:0 0 15px 0;}
+.phan21div3p1{
+    padding:10px; border:1px solid red; width:60px; height:60px;
+    border-radius:50%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.phan21div3p1 i {
+    font-size:30px;
+}
+.phan21div3:hover .phan21div3p1{
+    background-color: red;   
+   }
+.phan21div3:hover {
+    top:-20px;
+}
+
+
+.phan21div4 {
+    width:33%; height:262px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:3;
+        transition:all 0.5s;
+}
+
+.phan21div4h3 {margin:0 0 15px 0;}
+.phan21div4p1{
+    padding:10px; border:1px solid red; width:60px; height:60px;
+    border-radius:50%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.phan21div4p1 i {
+    font-size:30px;
+}
+.phan21div4:hover .phan21div4p1{
+    background-color: red;   
+   }
+.phan21div4:hover {
+    top:-20px;
+}
+
+
+.phan3{
+    border:1px solid red;
+    margin:20px 0 0 0;
+width:100%;
+}
+.phan31 {
+    width:60%; margin:0 auto;
+    border:1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.phan31div1 {
+    width:33%; height:262px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:4;
+        transition:all 0.5s;
+}
+.phan31div1h3 {margin:0 0 15px 0;}
+.phan31div1p1{
+    padding:10px; border:1px solid red; width:60px; height:60px;
+    border-radius:50%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.phan31div1p1 i {
+    font-size:30px;
+}
+.phan31div1:hover .phan31div1p1{
+    background-color: red;   
+   }
+.phan31div1:hover {
+    top:-20px;
+}
+
+.phan31div2 {
+    width:33%; height:262px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:4;
+        transition:all 0.5s;
+}
+.phan31div2h3 {margin:0 0 15px 0;}
+.phan31div2p1{
+    padding:10px; border:1px solid red; width:60px; height:60px;
+    border-radius:50%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.phan31div2p1 i {
+    font-size:30px;
+}
+.phan31div2:hover .phan31div2p1{
+    background-color: red;   
+   }
+.phan31div2:hover {
+    top:-20px;
+}
+
+.phan31div3 {
+    width:33%; height:262px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:4;
+        transition:all 0.5s;
+}
+.phan31div3h3 {margin:0 0 15px 0;}
+.phan31div3p1{
+    padding:10px; border:1px solid red; width:60px; height:60px;
+    border-radius:50%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.phan31div3p1 i {
+    font-size:30px;
+}
+.phan31div3:hover .phan31div3p1{
+    background-color: red;   
+   }
+.phan31div3:hover {
+    top:-20px;
+}
+
+.phan4{
+    border:1px solid red;
+    margin:20px 0 0 0;
+width:100%;
+}
+.phan41 {
+    width:60%; margin:0 auto;
+    border:1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.phan41div1 {
+    width:40%;height:465px; border:1px solid blue;
+}
+.phan41div1 h3 {font-size: 24px;
+    margin-bottom: 25px;
+    font-family: "Poppins", sans-serif;
+}
+.phan41div1 p {
+    color: #95a0ab ;
+}
+
+.phan41div1 ul li {
+    display:inline-block;color: #95a0ab ;
+}
+.phan41div1 button {
+    width:30%;padding:10px; border-radius:5px; background-color: red; border: none;
+    transition: all 0.5s;
+    position:relative; top:0;
+}
+.phan41div1 button:hover {
+top:-10px;
+}
+
+.phan41div2 {
+    width:60%;height:465px; border:1px solid blue;
+    position: relative;
+}
+.phan41div2 img {
+   width:80%;height:460px;position:absolute;top:0;right:0;
+}
+
+.phan5 {
+    width:100%;height:423px; position: relative; border:1px solid red;
+    background: url("img-1.jpg"); background-position: center;
+}
+.phan51 {
+    background: linear-gradient(to right, #512da8, #711e72);
+    opacity: 0.9;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+}
+.phan51 img {
+    position: absolute; bottom:0;left:0;
+}
+
+.phan512 {
+    width:60%;height:423px; margin:0 auto; border:1px solid blue;
+    text-align: center; position:relative;
+}
+.phan512 h2 {
+    color:white; font-size: 30px; position: absolute; top:20%;
+}
+.phan512 p {color:white; position: absolute;top:35%;}
+.phan512 button {
+    width:20%;padding:15px; background-color: white; position: absolute; top:50%; left:40%;
+    border-radius:5px; transition: all 0.5s;
+}
+.phan512 button:hover {
+    top:48%;
+}
+
+.phan6{
+    border:1px solid red;
+    margin:50px 0 0 0;
+width:100%;
+}
+.phan6div1 {
+    width:60%;margin:0 auto;border:1px solid green;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+   
+}
+.phan6div1 hr {border-top: 2px solid red; width:6%; height:2px; margin:30px 0 30px 0;}
+.phan6div1 p {padding-bottom:20px; color: #95a0ab ;}
+
+.phan61 {
+    width:60%; margin:0 auto;
+    border:1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.phan6div1 p {
+    padding:0 0 30px 0;
+}
+
+.phan61div1 {
+width:30%; height:550px; border:1px solid red;
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative; top:0px; z-index:6;
+    box-shadow:1px 1px 3px #403952;
+    border-radius:5px;
+    transition:all 0.5s;
+}
+.phan61div1 h4 {
+    font-size: 15px;
+}
+.phan61div1 h1 {
+    padding:5px;
+}
+.phan61div1 h6 {color: #95a0ab ;}
+.phan61div1 hr {width:70%; margin:30px 0;}
+.phan61div1 p {padding:8px;}
+.phan61div1 b {color:red;}
+.phan61div1 button {width:30%;background-color: red; border:none;padding:15px;
+margin-top:30px; position: relative; top:0; transition: all 0.5s;
+border-radius:5px;
+}
+.phan61div1 button:hover {
+    top:-10px;
+}
+
+.phan61div1:hover {
+    top: -10px;
+}
+
+.phan61div2 {
+    width:30%; height:550px; border:1px solid red;
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative; top:0px; z-index:6;
+    box-shadow:1px 1px 3px #403952;
+    border-radius:5px;
+    transition:all 0.5s;
+
+}
+
+.phan61div2 h4 {
+    font-size: 15px;
+}
+.phan61div2 h1 {
+    padding:5px;
+}
+.phan61div2 h6 {color: #95a0ab ;}
+.phan61div2 hr {width:70%; margin:30px 0;}
+.phan61div2 p {padding:8px;}
+.phan61div2 b {color:red;}
+.phan61div2 button {width:30%;background-color: red; border:none;padding:15px;
+margin-top:30px; position: relative; top:0; transition: all 0.5s;
+border-radius:5px;
+}
+.phan61div2 button:hover {
+    top:-10px;
+}
+
+.phan61div2:hover {
+    top: -10px;
+}
+
+.phan61div3 {
+    width:30%; height:550px; border:1px solid red;
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative; top:0px; z-index:6;
+    box-shadow:1px 1px 3px #403952;
+    border-radius:5px;
+    transition:all 0.5s;
+
+}
+
+.phan61div3 h4 {
+    font-size: 15px;
+}
+.phan61div3 h1 {
+    padding:5px;
+}
+.phan61div3 h6 {color: #95a0ab ;}
+.phan61div3 hr {width:70%; margin:30px 0;}
+.phan61div3 p {padding:8px;}
+.phan61div3 b {color:red;}
+.phan61div3 button {width:30%;background-color: red; border:none;padding:15px;
+margin-top:30px; position: relative; top:0; transition: all 0.5s;
+border-radius:5px;
+}
+.phan61div3 button:hover {
+    top:-10px;
+}
+
+.phan61div3:hover {
+    top: -10px;
+}
+
+/* end phan 6 */
+
+.phan7{
+    border:1px solid red;
+    margin:50px 0 0 0;
+width:100%;
+}
+.phan7div1 {
+    width:60%;margin:0 auto;border:1px solid green;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+   
+}
+.phan7div1 hr {border-top: 2px solid red; width:6%; height:2px; margin:30px 0 30px 0;}
+.phan7div1 p {padding-bottom:20px; color: #95a0ab ;}
+
+.phan71 {
+    width:60%; margin:0 auto;
+    border:1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.phan7div1 p {
+    padding:0 0 30px 0;
+}
+
+.phan71div1 {
+width:24%; height:348px; border:1px solid red;
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative; top:0px; z-index:6;
+    box-shadow:1px 1px 3px #403952;
+    border-radius:5px;
+    transition:all 0.5s;
+}
+.phan71div1 img {
+    position: absolute;top:0; height:261px;
+}
+.phan71div1 h4 {
+     font-size: 16px; position: absolute; bottom:50px;
+}
+.phan71div1 p {
+    color: #a8aeb4; font-size: 13px; position: absolute; bottom:25px;
+}
+.phan71div1:hover {
+    top: -10px;
+}
+.phan71div2 {
+    width:24%; height:348px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:6;
+        box-shadow:1px 1px 3px #403952;
+        border-radius:5px;
+        transition:all 0.5s;
+}
+.phan71div2 img {
+    position: absolute;top:0; height:261px;
+}
+.phan71div2 h4 {
+     font-size: 16px; position: absolute; bottom:50px;
+}
+.phan71div2 p {
+    color: #a8aeb4; font-size: 13px; position: absolute; bottom:25px;
+}
+.phan71div2:hover {
+    top: -10px;
+}
+
+.phan71div3 {
+    width:24%; height:348px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:6;
+        box-shadow:1px 1px 3px #403952;
+        border-radius:5px;
+        transition:all 0.5s;
+}
+.phan71div3 img {
+    position: absolute;top:0; height:261px;
+}
+.phan71div3 h4 {
+     font-size: 16px; position: absolute; bottom:50px;
+}
+.phan71div3 p {
+    color: #a8aeb4; font-size: 13px; position: absolute; bottom:25px;
+}
+.phan71div3:hover {
+    top: -10px;
+}
+.phan71div4 {
+    width:24%; height:348px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:6;
+        box-shadow:1px 1px 3px #403952;
+        border-radius:5px;
+        transition:all 0.5s;
+}
+.phan71div4 img {
+    position: absolute;top:0; height:261px;
+}
+.phan71div4 h4 {
+     font-size: 16px; position: absolute; bottom:50px;
+}
+.phan71div4 p {
+    color: #a8aeb4; font-size: 13px; position: absolute; bottom:25px;
+}
+.phan71div4:hover {
+    top: -10px;
+}
+
+/* het phan 7 */
+
+.phan8{
+    border:1px solid red;
+    margin:50px 0 0 0;
+width:100%; position: relative;
+}
+.phan8div1 {
+    width:60%;margin:0 auto;border:1px solid green;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+   
+}
+.phan8div1 hr {border-top: 2px solid red; width:6%; height:2px; margin:30px 0 30px 0;}
+.phan8div1 p {padding-bottom:20px; color: #95a0ab ;}
+
+.phan81 {
+    width:60%; margin:0 auto;
+    border:1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.phan81div1 p {
+    padding:0 0 30px 0;
+}
+
+.phan81div1 {
+width:30%; height:249px; border:1px solid red;
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative; top:0px; z-index:6;
+  
+}
+.phan81div1 i {
+    font-size: 48px; color:red;
+}
+.phan81div1 h4 {font-size: 18px;}
+.phan81div1 p {color: #95a0ab ;}
+
+.phan81div2 {
+    width:30%; height:249px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:6;
+      
+}
+.phan81div2 i {
+    font-size: 48px; color:red;
+}
+.phan81div2 h4 {font-size: 18px;}
+.phan81div2 p {color: #95a0ab ;}
+.phan81div2 button {
+    position: absolute;bottom:8%;width:30%;padding:10px;
+    background-color: red;border-radius: 5px; border: none;
+    transition: all 0.5s;
+}
+.phan81div2 button:hover {
+    bottom:10%;
+}
+.phan81div3 {
+    width:30%; height:249px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:6;
+      
+}
+.phan81div3 i {
+    font-size: 48px; color:red;
+}
+.phan81div3 h4 {font-size: 18px;}
+.phan81div3 p {color: #95a0ab ;}
+
+.phan81phu1 i {
+    position: absolute; z-index: 10; top:65%; left:39%; width:2%;   text-align: center;
+    font-size: 30px;color:white; border:1px solid red; border-radius: 50%;
+    background-color: red;
+}
+.phan81div1:before {
+    content: "";
+    border: 1px dashed #e0e0e0;
+    position: absolute;
+    width: 67%;
+    left: 65%;
+    top: 50px;
+    position: absolute; z-index: 10; top:50%; left:80%;
+}
+.phan81phu2 i {
+    position: absolute; z-index: 10; top:65%; right:39%; width:2%;   text-align: center;
+    font-size: 30px;color:white; border:1px solid red; border-radius: 50%;
+    background-color: red;
+}
+.phan81div2:before {
+    content: "";
+    border: 1px dashed #e0e0e0;
+    position: absolute;
+    width: 67%;
+    left: 65%;
+    top: 50px;
+    position: absolute; z-index: 10; top:50%; left:80%;
+}
+
+/* het phan 8 */
+
+.phan9{
+    border:1px solid red;
+    margin:50px 0 20px 0;
+width:100%; position: relative;
+}
+.phan9div1 {
+    width:60%;margin:0 auto;border:1px solid green;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+   
+}
+.phan9div1 hr {border-top: 2px solid red; width:6%; height:2px; margin:30px 0 30px 0;}
+.phan9div1 p {padding-bottom:20px; color: #95a0ab ;}
+
+.phan91 {
+    width:60%; margin:0 auto;
+    border:1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.phan91div1 p {
+    padding:0 0 30px 0;
+}
+
+.phan91div1 {
+width:30%; height:240px; border:1px solid red;
+display: flex;
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative; top:0;
+  transition: all 0.5s;
+}
+.phan91div1 img {
+    width:68px;height:68px;border-radius:50%;
+    position: absolute; z-index:11; top:3%;left:40%;
+    padding:5px; border:1px solid rgb(100, 82, 82);
+}
+.phan91div1 p {
+    width:80%;height:162px;border:1px solid red;
+    padding-top:15%; border-radius: 5px;box-shadow: 1px 1px 3px black;
+}
+.phan91div1 h5 {
+    position:absolute; bottom:10px;
+}
+.phan91div1 span {
+    color: #95a0ab ;
+}
+.phan91div1:hover {
+top:-10px;
+}
+.phan91div2 {
+    width:30%; height:240px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:6;
+        transition: all 0.5s;
+}
+.phan91div2 img {
+    width:68px;height:68px;border-radius:50%;
+    position: absolute; z-index:11; top:3%;left:40%;
+    padding:5px; border:1px solid rgb(100, 82, 82);
+}
+.phan91div2 p {
+    width:80%;height:162px;border:1px solid red;
+    padding-top:15%; border-radius: 5px;box-shadow: 1px 1px 3px black;
+}
+.phan91div2 h5 {
+    position:absolute; bottom:10px;
+}
+.phan91div2 span {
+    color: #95a0ab ;
+}
+.phan91div2:hover {
+    top:-10px;
+    }
+.phan91div3 {
+    width:30%; height:240px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: relative; top:0px; z-index:6;
+        transition: all 0.5s;
+}
+
+.phan91div3 img {
+    width:68px;height:68px;border-radius:50%;
+    position: absolute; z-index:11; top:3%;left:40%;
+    padding:5px; border:1px solid rgb(100, 82, 82);
+}
+.phan91div3 p {
+    width:80%;height:162px;border:1px solid red;
+    padding-top:15%; border-radius: 5px;box-shadow: 1px 1px 3px black;
+}
+.phan91div3 h5 {
+    position:absolute; bottom:10px;
+}
+.phan91div3 span {
+    color: #95a0ab ;
+}
+.phan91div3:hover {
+top:-10px;
+}
+
+/* het phan 9 */
+
+.phan10 {
+    width:100%;height:423px; position: relative; border:1px solid red;
+    background: url("img-2\ \(1\).jpg"); background-position: center;
+}
+.phan101 {
+    background: linear-gradient(to right, #512da8, #711e72);
+    opacity: 0.9;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+}
+.phan101 img {
+    position: absolute; bottom:0;left:0;
+}
+
+.phan1012 {
+    width:60%;height:423px; margin:0 auto; border:1px solid blue;
+    text-align: center; position:relative;
+}
+.phan1012 h2 {
+    color:white; font-size: 30px; position: absolute; top:20%;
+}
+.phan1012 hr {width:10%;border-top: 2px solid red;position: absolute; top:30%;left:45%;
+    height:2px
+}
+.phan1012 p {color:white; position: absolute;top:35%;}
+.phan1012 button {
+    width:15%;padding:15px; background-color: white; position: absolute; top:50%; left:42%;
+    border-radius:5px; transition: all 0.5s;
+}
+.phan1012 button:hover {
+    top:48%;
+}
+
+/* het phan 10 */
+
+.phan11{
+    border:1px solid red;
+    margin:50px 0 0 0;
+width:100%; position: relative;
+}
+.phan11div1 {
+    width:60%;margin:0 auto;border:1px solid green;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+   
+}
+.phan11div1 hr {border-top: 2px solid red; width:6%; height:2px; margin:30px 0 30px 0;}
+.phan11div1 p {padding-bottom:20px; color: #95a0ab ;}
+
+.phan111 {
+    width:60%; margin:0 auto;
+    border:1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.phan11div1 p {
+    padding:0 0 30px 0;
+}
+
+.phan111div1 {
+width:30%; height:435px; border:1px solid red;
+display: flex;
+flex-direction: column;
+  
+    position: relative; top:0;
+  transition: all 0.5s;
+}
+.phan111div1 img {
+    width:100%;height:237px; position: absolute; top:0;
+}
+.phan111div1 h5 {color: #95a0ab ;position: absolute;top:60%;}
+.phan111div1 h4 {position: absolute;top:65%;}
+.phan111div1 a {text-decoration: none;}
+.phan111div1 .p2 a {color:red;}
+.phan111div1 .p2 a:hover {color:black;}
+.phan111div1 h4 a:hover {color:red;}
+.phan111div1 p {position: absolute;top:70%; color: #95a0ab ;}
+.phan111div1 .p2 {position: absolute;top:85%;}
+.phan111div1:hover {
+top:-10px;
+}
+.phan111div2 {
+    width:30%; height:435px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+        
+        position: relative; top:0px; z-index:6;
+        transition: all 0.5s;
+}
+.phan111div2 img {
+    width:100%;height:237px; position: absolute; top:0;
+}
+.phan111div2 h5 {color: #95a0ab ;position: absolute;top:60%;}
+.phan111div2 h4 {position: absolute;top:65%;}
+.phan111div2 a {text-decoration: none;}
+.phan111div2 .p2 a {color:red;}
+.phan111div2 .p2 a:hover {color:black;}
+.phan111div2 h4 a:hover {color:red;}
+.phan111div2 p {position: absolute;top:70%; color: #95a0ab ;}
+.phan111div2 .p2 {position: absolute;top:85%;}
+.phan111div2:hover {
+top:-10px;
+}
+
+.phan111div3 {
+    width:30%; height:435px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+       
+        position: relative; top:0px; z-index:6;
+        transition: all 0.5s;
+}
+
+.phan111div3 img {
+    width:100%;height:237px; position: absolute; top:0;
+}
+.phan111div3 h5 {color: #95a0ab ;position: absolute;top:60%;}
+.phan111div3 h4 {position: absolute;top:65%;}
+.phan111div3 a {text-decoration: none;}
+.phan111div3 .p2 a {color:red;}
+.phan111div3 .p2 a:hover {color:black;}
+.phan111div3 h4 a:hover {color:red;}
+.phan111div3 p {position: absolute;top:70%; color: #95a0ab ;}
+.phan111div3 .p2 {position: absolute;top:85%;}
+.phan111div3:hover {
+top:-10px;
+}
+
+/* het phan 11 */
+
+.phan12{
+    border:1px solid red;
+    margin:50px 0 0 0;
+width:100%; position: relative;
+}
+.phan12div1 {
+    width:60%;margin:0 auto;border:1px solid green;
+    display: flex;
+   
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+   
+}
+.phan12div1 hr {border-top: 2px solid red; width:6%; height:2px; margin:30px 0 30px 0;}
+.phan12div1 p {padding-bottom:20px; color: #95a0ab ;}
+.phan12div1 p {
+    padding:0 0 50px 0;
+}
+.phan121 {
+    width:60%; margin:0 auto;
+    border:1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+
+
+.phan121div1 {
+width:30%; height:435px; border:1px solid red;
+display: flex;
+flex-direction: column;
+  
+    position: relative; top:0;
+  transition: all 0.5s;
+}
+.phan121div1 p {font-size: 14px;
+font-weight: bold;
+}
+.phan121div1 span {color: #95a0ab; margin:10px 0 30px 0; }
+
+.phan121div2 {
+    width:65%; height:435px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+      
+        position: relative; top:0;
+      transition: all 0.5s;
+}
+
+.phan121div2 .inp1{
+    margin-bottom: 15px;
+    box-shadow: none !important;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    font-size: 14px;
+    width:45%;
+}
+.phan121div2 .inp2{
+    position: absolute; right:0;
+    margin-bottom: 15px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    font-size: 14px;
+    width:45%;
+}
+.phan121div2 .inp3{
+    position: absolute; left:0; top: 70px;
+    margin-bottom: 15px;
+    height: 50px;
+    padding-left: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    font-size: 14px;
+    width:100%;
+}
+.phan121div2 .text1 {
+    margin-top:80px;
+  
+    height: 80px;
+    padding-left: 20px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    
+}
+.phan121div2 button {
+    width:20%; background-color: red; border:none;
+    position: absolute; right:0; top:60%; padding:15px;
+    border-radius: 5px; transition: all 0.5s;
+}
+.phan121div2 a {text-decoration: none;color:white;}
+.phan121div2 button:hover {
+    top:58%;
+}
+    
+/* het phan 12 */
+
+.phan13{
+    border:1px solid red;
+    margin:50px 0 0 0;
+width:100%; position: relative;
+}
+.phan131 {
+    width:60%; margin:0 auto;
+    border:1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.phan131div1 {
+    width:33%; height:88px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+        position: relative; top:0;
+      transition: all 0.5s;
+}
+.phan131div1 ul{
+    position: absolute; left:0;
+}
+.phan131div1 a {text-decoration: none;}
+.phan131div1 .iconify {
+    text-align: center;
+    font-size: 20px;color:black; border:1px solid rgb(68, 57, 57); 
+    width:10%;height:40px; border-radius: 50%; 
+}
+.phan131div1 .iconify:hover {
+    background-color: red;
+}
+
+.phan131div2 {
+    width:33%; height:88px; border:1px solid red;
+    position: relative;
+     
+}
+.phan131div2 span {
+position: absolute; left:50%; top:50%;
+}
+.phan131div2 i {
+    font-size: 20px; color:black
+}
+.phan131div3 {
+    width:33%; height:88px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+      
+        position: relative; top:0;
+      transition: all 0.5s;
+}
+.phan131div3 span {
+    position: absolute; left:50%; top:50%;
+    }
+    .phan131div3 i {
+        font-size: 20px; color:black
+}
+
+/* het phan 13 */
+.phan14{
+    border:1px solid red;
+    margin:50px 0 0 0;
+width:100%; position: relative; height:346px;
+display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: black;
+}
+.phan141 {
+    width:60%; margin:0 auto; height:246px;
+    border:1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.phan141div1 {
+    width:25%; height:246px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+      position: relative; top:0;
+      transition: all 0.5s;
+      color:white;
+}
+.phan141div1 h4 {margin-bottom:20px;}
+.phan141div1 li {display:block; list-style-type: none;margin:0;padding:10px 0;}
+.phan141div1 a {text-decoration: none; color:white;}
+.phan141div2 {
+    width:25%; height:246px; border:1px solid red;
+   
+    display: flex;
+    flex-direction: column;
+      position: relative; top:0;
+      transition: all 0.5s;
+      color:white;
+}
+.phan141div2 h4 {margin-bottom:20px;}
+.phan141div2 li {display:block; list-style-type: none;margin:0;padding:10px 0;}
+.phan141div2 a {text-decoration: none; color:white;}
+.phan141div3 {
+    width:25%; height:246px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+      position: relative; top:0;
+      transition: all 0.5s;
+      COLOR:white;
+}
+.phan141div3 h4 {margin-bottom:20px;}
+.phan141div3 li {display:block; list-style-type: none;margin:0;padding:10px 0;}
+.phan141div3 a {text-decoration: none; color:white;}
+.phan141div4 {
+    width:25%; height:246px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: all 0.5s;
+    color:white;
+}
+.phan141div4 h4 {margin-bottom:20px; text-transform: uppercase;}
+.phan141div4 li {display:block; list-style-type: none;margin:0;padding:10px 0;}
+.phan141div4 input {height:40px; background-color: #2e313a ; border:none;}
+.phan141div4 i {font-size: 20px; position: absolute; top:55%;left:90%;}
+
+/* het phan 14 */
+
+.phan15{
+    border:1px solid red;
+width:100%; position: relative; height:66px;
+display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: black;
+}
+.phan151 {
+    width:60%; margin:0 auto; height:36px;
+    border:1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background-color: ##2e313a;
+    
+}
+.phan151div1 {
+    width:50%; height:36px; border:1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+      position: relative; top:0;
+      transition: all 0.5s;
+      color:white;
+}
+
+.phan151div2 {
+    width:50%; border:1px solid red;height:36px;
+    display: flex;
+    flex-direction: column;
+      position: relative; top:0;
+      transition: all 0.5s;
+      color:white;
+    
+}
+.phan151div2 img {height:36px; width:30%; position: absolute;right:0;top:0;}
+
+
